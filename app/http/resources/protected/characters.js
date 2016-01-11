@@ -40,5 +40,7 @@ api.editCharacter = function(req, res) {
 };
 
 router.get('/characters', api.characters);
+router.route('/characters/:id')
+  .put(api.editCharacter);
 
 module.exports = router;

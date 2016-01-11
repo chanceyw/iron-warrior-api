@@ -13,6 +13,7 @@ var UserSchema = new Schema({
   damage: {type: Number},
   cash: {type: Number},
   experience: {type: Number},
+  inventory: [{type: String}],
 });
 
 UserSchema.path('password').set(function(value) {
