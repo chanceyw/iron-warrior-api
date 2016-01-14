@@ -9,10 +9,10 @@ var UserSchema = new Schema({
 
   // Game Data
   name: {type: String},
-  characterClass:{type: String},
-  damage: {type: Number},
-  cash: {type: Number},
-  experience: {type: Number},
+  characterClass:{type: String, default: 'Warrior'},
+  damage: {type: Number, default: 0},
+  cash: {type: Number, default: 0},
+  experience: {type: Number, default: 0},
   inventory: [{type: String}],
 });
 
