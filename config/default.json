@@ -13,7 +13,7 @@
   "oauth": {
     "signingOrigins": [
       {
-        "clientId": "super-site",
+        "clientId": "development",
         "origin": "http://localhost:4200"
       }
     ]
